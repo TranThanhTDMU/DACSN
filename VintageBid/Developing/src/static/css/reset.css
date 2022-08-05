@@ -1,0 +1,39 @@
+@font-face {
+  font-family: fontRegular;
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+  font-family: fontLight;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+body {
+  font-family: fontRegular;
+  color: rgb(51, 47, 47);
+}
+
+a {
+  color: rgb(51, 49, 49);
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none !important;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

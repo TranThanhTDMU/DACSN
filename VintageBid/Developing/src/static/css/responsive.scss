@@ -1,0 +1,139 @@
+@media (max-width: 479.98px) {
+  #mobile {
+    .menu-container {
+      left: unset;
+      width: 300px;
+    }
+  }
+
+  .avt-wrapper {
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .sign-in-container {
+    border: none;
+  }
+
+  #breadcrumb {
+    display: none;
+  }
+
+  .profile .user-bio p {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #product .show {
+    flex-wrap: wrap;
+  }
+  #product .show .image-wrapper .main-image {
+    width: 100%;
+  }
+  #product .show .main-info {
+    width: 100%;
+  }
+
+  #product .player-list {
+    .player-quantity {
+      display: none !important;
+    }
+    .player-time {
+      display: none !important;
+    }
+    .title-container {
+      justify-content: space-between !important;
+    }
+  }
+
+  .notification {
+    display: none !important;
+  }
+
+  .mb-notif {
+    display: block !important;
+
+    .overlay {
+      display: block !important;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1000;
+      background: rgba(85, 78, 78, 0.24);
+      backdrop-filter: blur(4px);
+    }
+
+    .mb-notif-container {
+      position: fixed;
+      z-index: 1001;
+      top: 0;
+      right: 0;
+      left: unset;
+      bottom: 0;
+      width: 300px;
+      background: white;
+
+      .notif-warn {
+        margin-top: 12px;
+        font-size: 1rem;
+        color: rgb(44, 41, 41);
+      }
+    }
+  }
+
+  #filter .filter-container ul li.filter-item {
+    font-size: 0.9rem;
+  }
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+  }
+
+  .search-form-container {
+    width: 90%;
+    input {
+      font-size: 1rem;
+    }
+  }
+
+  #header {
+    background: white;
+  }
+
+  #footer {
+    margin-top: 24px;
+    padding-top: 32px;
+    .menu1 {
+      display: none;
+    }
+    .care {
+      margin-top: 16px !important;
+      p {
+        text-align: left !important;
+      }
+    }
+    .social-networks {
+      margin-top: 24px !important;
+    }
+
+    .copyright {
+      h3 {
+        font-size: 1.3rem;
+        padding: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}

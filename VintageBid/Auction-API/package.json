@@ -1,0 +1,42 @@
+{
+  "name": "expessjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index",
+    "server": "nodemon src/index.js",
+    "client": "cd../Developing && npm run start",
+    "server-install": "npm install",
+    "client-install": "cd Developing && npm install",
+    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^7.2.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-rate-limit": "^5.2.6",
+    "firebase-tools": "^9.8.0",
+    "google": "^2.1.0",
+    "googleapis": "^105.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TranThanhTDMU"
+  },
+  "bugs": {
+    "url": "https://github.com/TranThanhTDMU"
+  },
+  "homepage": "https://github.com/Mythes/expressAPI#readme",
+  "description": ""
+}

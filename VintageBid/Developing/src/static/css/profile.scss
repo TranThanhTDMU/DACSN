@@ -1,0 +1,277 @@
+.profile .profile-header {
+  position: relative;
+  padding: 32px;
+}
+
+.profile .profile-header button {
+  position: absolute;
+  left: 0;
+  background: transparent;
+  font-size: 1.8rem;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.profile .profile-header h1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+
+.profile .profile-body {
+  margin-top: 60px;
+}
+
+.profile .profile-body .avt-wrapper {
+  margin: auto;
+  width: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  border: black 3px solid;
+  padding: 2px;
+}
+
+.profile .profile-body .avt-wrapper img {
+  width: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.profile .profile-body .avt-wrapper label {
+  position: absolute;
+  font-size: 1.6rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 6px;
+  opacity: 0.7;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.219);
+}
+
+.profile .profile-body .avt-wrapper label:hover {
+  background: rgba(179, 169, 169, 0.637);
+}
+
+.profile .profile-body .avt-wrapper input {
+  display: none;
+}
+
+/* .profile .profile-body .avt-wrapper button {
+  position: absolute;
+  z-index: 10; 
+  bottom: 0;
+  left: 50%;
+} */
+
+.profile .user-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile .user-bio p {
+  font-family: fontRegular;
+  font-size: 1.4rem !important;
+  margin: 20px auto;
+}
+
+.profile .user-bio span {
+  font-family: fontRegular;
+  font-size: 1rem !important;
+}
+
+.profile .user-data {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  margin: 32px auto;
+  text-align: center;
+  align-items: center;
+  background: rgba(131, 122, 122, 0.233);
+  border-radius: 20px;
+}
+
+.profile .user-data a {
+  margin: 0;
+  display: block;
+}
+
+.profile .option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile .close-btn {
+  padding: 12px;
+  font-size: 1.6rem;
+}
+
+.profile .close-btn i:hover {
+  color: rgb(197, 83, 83);
+}
+
+.profile .close-btn span {
+  font-size: 1rem;
+}
+
+.profile .setting {
+  background: none;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.747);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.profile .edit-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(128, 116, 116, 0.342);
+  z-index: 10000000;
+}
+
+.profile .edit-form-container {
+  width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.profile .edit-form-input {
+  margin: 20px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.623);
+  outline: none;
+}
+
+.profile .edit-form-input input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(109, 108, 108, 0.479);
+  background: rgba(88, 88, 88, 0.24);
+  color: black;
+  font-family: fontRegular;
+}
+
+.profile .avt-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile .avt-container input {
+  margin-left: 12px;
+  padding: 0;
+}
+
+.profile .edit-form-container button {
+  margin-bottom: 45px;
+  padding: 8px 20px;
+  background: #5073fe;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.profile .change-avt-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 8px;
+  background: #5073fe;
+  border-radius: 4px;
+  color: black;
+  font-family: fontRegular;
+  padding: 4px 12px;
+}
+
+.profile .back-btn {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  color: black;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.profile .password-form {
+  margin: 0px 20px;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+  font-family: fontRegular;
+  /* border-top: 1px solid rgba(116, 113, 113, 0.322); */
+}
+
+.profile .password-form p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  text-align: right;
+  cursor: pointer;
+}
+
+.profile .password-form i {
+  margin-left: auto;
+  display: block;
+  cursor: pointer;
+  text-align: right;
+}
+
+.profile .password-form i:hover {
+  color: rgb(226, 87, 87);
+}
+
+.profile .password-form input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid rgba(109, 108, 108, 0.479);
+  background: rgba(88, 88, 88, 0.24);
+  color: black;
+}
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */
+
+/* .profile */

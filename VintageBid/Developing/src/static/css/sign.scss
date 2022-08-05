@@ -1,0 +1,166 @@
+.sign-in-container {
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 20px;
+  padding: 42px 45px;
+  padding-top: 32px;
+  background-color: white;
+  border: 1px solid rgb(83, 103, 216);
+}
+
+.sign-in-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-logo-wrapper {
+  width: 160px;
+}
+.black {
+  background-color: black;
+  height: 100vh;
+  padding-top: 100px;
+}
+.sign-in-logo-wrapper img {
+  width: 100%;
+}
+
+.sign-in-title {
+  font-size: 22px;
+}
+
+#sign-in-form input,
+#sign-up-form input {
+  background: rgba(255, 255, 255, 0.082);
+  border: 1px solid rgba(80, 104, 180, 0.377);
+  border-radius: 99999px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 4px 10px;
+  outline: none;
+  caret-color: rgba(43, 40, 40, 0.404);
+  color: rgb(48, 45, 45);
+}
+
+#sign-in-form label,
+#sign-up-form label {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-weight: 100;
+  font-family: fontLight;
+}
+
+#sign-in-form .form-name,
+#sign-up-form .form-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sign-in-form .form-name input,
+#sign-up-form .form-name input {
+  width: 48%;
+}
+
+#sign-in-form .form-btn,
+#sign-up-form .form-btn {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+#sign-in-form .form-btn .sign-btn,
+#sign-up-form .form-btn .sign-btn {
+  border-radius: 999px;
+  margin-left: 10px;
+  background: #a2b4fd;
+  transition: ease 0.2s;
+  padding: 8px 20px;
+  color: white;
+}
+
+#sign-in-form .form-btn .sign-btn.active,
+#sign-up-form .form-btn .sign-btn.active {
+  background: #5073fe;
+}
+
+.validate-error {
+  border-color: rgb(228, 71, 71) !important;
+}
+
+.form-auths {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 16px auto;
+}
+
+.form-auths a {
+  display: inline-block;
+  width: 48%;
+  padding: 5px 0px;
+  text-align: center;
+  border-radius: 999px;
+}
+
+.form-auths a span {
+  margin-right: 8px;
+}
+
+.form-auths a.fb {
+  color: white;
+  text-decoration: none;
+  background: #5073fe;
+  transition: ease 0.1s;
+}
+
+.form-auths a.fb:hover {
+  background: #4766e2;
+}
+
+.form-auths a.gg {
+  color: white;
+  text-decoration: none;
+  background: #cc9a3e;
+  transition: ease 0.1s;
+}
+
+.form-auths a.gg:hover {
+  background: #9c762e;
+}
+
+#sign-up-form .form-btn .sign-btn {
+  width: 100%;
+  margin-left: 0;
+}
+
+#sign-up-form input {
+  padding: 5px 10px;
+}
+
+.link-to-sign-in {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: right;
+  display: block;
+  margin: 8px auto;
+}
+
+.link-to-sign-in:hover {
+  text-decoration: underline;
+  color: rgb(129, 129, 214);
+}
+
+#sign-up-form .form-btn .sign-btn {
+  cursor: no-drop;
+}
+
+#sign-up-form .form-btn .sign-btn.active {
+  cursor: pointer;
+}
+

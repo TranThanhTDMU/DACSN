@@ -1,0 +1,219 @@
+#product {
+  .cate-container {
+    margin: 12px 0px;
+    margin-bottom: 20px
+  }
+  .category {
+    padding: 8px 24px;
+    background: rgba(146, 127, 127, 0.288);
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .producer {
+    margin-left: 20px;
+    font-family: fontLight;
+    font-style: italic
+  }
+  .done {
+    color: red;
+    font-size: 1.5rem;
+    i {
+      margin-right: 12px;
+    }
+  }
+  .show {
+    margin-top: 32px;
+    display: flex;
+    .image-wrapper {
+      display: flex;
+
+      .image-list {
+        margin-right: 10px;
+        li {
+          cursor: pointer;
+          width: 100px;
+          margin-bottom: 10px;
+          img {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+          }
+        }
+
+        li.active {
+          border: 1px solid rgba(49, 45, 45, 0.466);
+          padding: 4px;
+          border-radius: 3px;
+          overflow: hidden;
+        }
+      }
+
+      .main-image {
+        width: 430px;
+        img {
+          width: 100%;
+          aspect-ratio: 1;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .main-info {
+      display: flex;
+      flex-direction: column;
+      margin-left: 32px;
+      padding-top: 45px;
+
+      .win {
+        display: flex;
+        .price {
+          .auction {
+            margin-top: 20px;
+
+            label {
+              margin-right: 20px;
+            }
+
+            p {
+              font-size: .9rem;
+              font-style: italic;
+              color: rgba(255, 0, 0, 0.692);
+            }
+
+            button {
+              padding: 8px 24px;
+              margin: 12px auto;
+              background: #1ab7ea;
+              border-radius: 4px;
+            }
+          }
+
+          padding-top: 24px;
+          margin-right: 32px;
+          span {
+            font-family: fontLight;
+            font-size: 1rem;
+          }
+          h6 {
+            font-size: 1.5rem;
+            color: rgb(55, 172, 55);
+            margin: 0;
+            padding: 0;
+          }
+        }
+        .winner {
+          margin-top: 24px;
+          span {
+            font-family: fontLight;
+            font-size: 1rem;
+          }
+          i {
+            color: rgb(223, 174, 41);
+            margin-left: 12px;
+          }
+          .user-name {
+            font-family: fontRegular;
+            font-size: 1.3rem;
+            margin-left: 8px;
+            text-decoration: none;
+          }
+        }
+        .quick-buy {
+          margin-top: 24px;
+          margin-left: 32px;
+          span {
+            cursor: pointer;
+            font-style: italic;
+            margin-bottom: 20px;
+
+            i {
+              margin-left: 12px;
+              color: rgb(248, 79, 79);
+            }
+          }
+          
+          h4 {
+            color: #1ab7ea
+          }
+        }
+      }
+    }
+  }
+
+  .detail-info {
+    margin-top: 32px;
+
+    li {
+      padding: 4px 4px;
+      border-bottom: 1px solid rgba(85, 79, 79, 0.164);
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    li.title {
+      font-family: fontLight;
+    }
+
+    .see-more {
+      font-family: fontLight;
+      font-style: italic;
+      margin-top: 12px;
+      display: block;
+      color: #1ab7ea;
+    }
+
+    
+
+    .detail {
+      margin: 18px 0px;
+      span {
+        display: block;
+      }
+    }
+    .discribe {
+      font-family: fontLight;
+    }
+    .player-list {
+      position: relative;
+      ul {
+        max-height: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        padding-top: 40px;
+        .title {
+          position: absolute;
+          width: 100%;
+          background: white;
+          z-index: 2;
+          top: 0;
+        }
+        .player-time {
+          font-size: .8rem;
+          font-family: fontLight;
+        }
+        .player-quantity {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  #detail-counter  h3{
+    color: rgb(247, 96, 96);
+  }
+
+  .seller {
+    margin: 16px 0px;
+
+    a {
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+  }
+}
+
+#search-page {
+  margin-top: 20px;
+}

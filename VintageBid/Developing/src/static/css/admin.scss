@@ -1,0 +1,96 @@
+#admin-filter {
+  margin-top: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  button {
+    padding: 4px 20px;
+    background: none;
+    transform: translateY(1px);
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+  }
+
+  button.active {
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+}
+
+#product-list {
+  .pass-btn {
+    padding: 4px;
+    width: 50%;
+    margin-bottom: 4px;
+  }
+
+  .pass-btn:hover {
+    background: rgba(107, 102, 102, 0.301);
+  }
+
+  .pass {
+    color: rgb(40, 194, 40);
+  }
+  .delete {
+    color: rgb(241, 77, 77);
+    margin-left: auto;
+  }
+}
+
+#admin-user {
+  margin-top: 32px;
+  .user-item {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid rgba(61, 58, 58, 0.315);
+    .user-container {
+      display: flex;
+    }
+    img {
+      width: 40px;
+      margin-right: 12px;
+      aspect-ratio: 1;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    button {
+      color: rgb(243, 63, 63);
+      border-radius: 4px;
+      margin-left: auto;
+    }
+  }
+
+  .user-search {
+    margin: 12px 0px;
+
+    form {
+      margin-left: auto;
+      display: inline-block;
+      .input-wrapper {
+        position: relative;
+        input {
+          width: 300px;
+          outline: none;
+          border: 1px solid rgba(114, 109, 109, 0.568);
+          padding: 4px 12px;
+        }
+        button {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background: none;
+          outline: none;
+          border: none;
+          cursor: pointer;
+        }
+
+        button:hover {
+          color: rgba(104, 98, 98, 0.637);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+
+//String Connect Mongo Compass//
+mongodb+srv://Tranthanh:thanh12345@cluster0.v2jh0.mongodb.net/daugia?retryWrites=true&w=majority
